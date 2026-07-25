@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --color-ink: #0c0a09;
+  --color-surface: #1c1712;
+  --color-surface-alt: #241d16;
+  --color-cream: #f3ecdd;
+  --color-muted: #b8ab97;
+  --color-gold: #cda355;
+  --color-gold-bright: #e0b869;
+  --color-crimson: #b23a3a;
+  --color-crimson-deep: #7a2429;
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-surface: var(--color-surface);
+  --color-surface-alt: var(--color-surface-alt);
+  --color-cream: var(--color-cream);
+  --color-muted: var(--color-muted);
+  --color-gold: var(--color-gold);
+  --color-gold-bright: var(--color-gold-bright);
+  --color-crimson: var(--color-crimson);
+  --color-crimson-deep: var(--color-crimson-deep);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+    letter-spacing: 0.02em;
+  }
+
+  /* Respect reduced-motion preferences site-wide */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Visible focus ring for keyboard users on every interactive element */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid var(--color-gold-bright);
+    outline-offset: 2px;
+  }
+}
