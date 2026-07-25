@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-16 sm:py-24 lg:grid-cols-2 lg:items-center lg:py-28">
         <div>
           <p className="font-display text-sm tracking-[0.35em] text-gold">
-            MILWAUKEE, WISCONSIN
+            GREATER MILWAUKEE, WISCONSIN
           </p>
           <h1 className="mt-4 font-display text-5xl leading-[1.05] tracking-wide text-cream sm:text-6xl lg:text-7xl">
             18 PIECES.
@@ -23,9 +23,10 @@ export default function Hero() {
             OF SWING.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted sm:text-xl">
-            Milwaukee&rsquo;s premier big band, bringing a full horn section
-            and an unstoppable rhythm section to weddings, corporate events,
-            and nonprofit galas across Wisconsin.
+            The Midwest&rsquo;s premier big band, fronted by Pete Sorce and
+            arranged by Jeff La Barge, bringing sophistication and energy to
+            corporate events, private parties, and fundraising galas across
+            Wisconsin.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link

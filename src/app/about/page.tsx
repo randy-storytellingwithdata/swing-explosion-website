@@ -4,7 +4,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "About the Band",
   description:
-    "Meet Swing Explosion, Milwaukee's 18-piece big band bringing classic swing, jazz, and dance music to life on stage.",
+    "Meet Swing Explosion, an 18-piece big band fronted by Pete Sorce and arranged by Jeff La Barge, bringing classic swing and jazz to life on stage.",
 };
 
 export default function AboutPage() {
@@ -13,7 +13,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="ABOUT THE BAND"
         title="18 Musicians. One Unstoppable Sound."
-        description="Swing Explosion is Milwaukee's premier big band, built for dance floors, ballrooms, and everything in between."
+        description="Swing Explosion is the Midwest's premier big band, built for corporate stages, ballrooms, and everything in between."
       />
       <section className="mx-auto max-w-4xl px-6 py-16">
         <p className="text-lg leading-relaxed text-cream/90">

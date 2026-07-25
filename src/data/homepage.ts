@@ -1,8 +1,10 @@
+// Corporate/private/fundraiser audiences lead intentionally, per the band's
+// request to foreground those bookings over weddings.
 export const AUDIENCES = [
-  "Weddings",
   "Corporate Events",
-  "Nonprofit Galas",
   "Private Parties",
+  "Fundraisers & Galas",
+  "Weddings",
 ];
 
 export type Feature = {
@@ -12,24 +14,24 @@ export type Feature = {
 
 export const FEATURES: Feature[] = [
   {
-    title: "The Full 18-Piece Experience",
+    title: "A Frontman With a Pedigree",
     description:
-      "Five saxes, four trumpets, four trombones, and a full rhythm section — the real, unmistakable big-band sound, not a downsized combo.",
+      "Pete Sorce has been singing since he was eight years old and won the Ted Mack Original Amateur Hour as an original “American Idol.” He's shared the stage with Les Brown, Frank Sinatra Jr., Mel Tormé, Jack Jones, and Duke Ellington — and brings that same polish to your event.",
   },
   {
-    title: "Built for Your Timeline",
+    title: "Arrangements by Jeff La Barge",
     description:
-      "From cocktail hour to first dance to a packed dance floor at 11pm, we read the room and shape the set list to match your event.",
+      "Led by one of the country's finest arrangers, Swing Explosion can add almost any song on request — from a donor's favorite standard to a CEO's walk-on music.",
   },
   {
-    title: "Professional & Dependable",
+    title: "Right-Sized for Any Event",
     description:
-      "Fully insured, punctual, and experienced with venues, planners, and production teams across Wisconsin.",
+      "The full 18-piece band delivers five saxes, four trumpets, four trombones, and a driving rhythm section — or scale down to a tighter combo for a smaller venue or budget without losing the big-band sound.",
   },
   {
-    title: "Flexible for Any Venue",
+    title: "A Regional Favorite",
     description:
-      "From ballrooms to backyard tents, our sound and stage plot scale to fit your space without losing energy.",
+      "The house band at Aliotto's and a staple of southeastern Wisconsin's swing scene, Swing Explosion brings the music of Sinatra, Tony Bennett, Sammy Davis Jr., Dean Martin, and Michael Bublé to corporate parties, fundraising galas, and civic events across the region.",
   },
 ];
 
@@ -39,13 +41,14 @@ export type Testimonial = {
   role: string;
 };
 
-// PLACEHOLDER TESTIMONIALS: replace with real client quotes before launch.
+// PLACEHOLDER TESTIMONIALS: we couldn't find published client quotes to pull
+// from — replace these with real feedback before launch.
 export const TESTIMONIALS: Testimonial[] = [
   {
     quote:
       "Swing Explosion turned our ballroom into an absolute party. Every planner I work with asks who the band was.",
     name: "Sample Quote",
-    role: "Wedding Planner",
+    role: "Corporate Event Planner",
   },
   {
     quote:
@@ -55,8 +58,8 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     quote:
-      "Professional from the first email to the last song. Exactly what we needed for our corporate anniversary event.",
+      "Professional from the first email to the last song. Exactly what we needed for our fundraiser.",
     name: "Sample Quote",
-    role: "Corporate Event Director",
+    role: "Fundraising Committee Chair",
   },
 ];

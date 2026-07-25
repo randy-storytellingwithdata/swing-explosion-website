@@ -1,34 +1,36 @@
 export type PerformanceVideo = {
-  /** YouTube video ID. Replace these with Swing Explosion's real performance clips. */
+  /** YouTube video ID. */
   id: string;
   title: string;
   description: string;
 };
 
-// PLACEHOLDER DATA: swap these YouTube IDs for real Swing Explosion footage
-// before launch. IDs below point to neutral, freely-embeddable Creative
-// Commons clips so the hero/video sections render correctly out of the box.
+// One verified real clip of the band: Pete Sorce & Swing Explosion performing
+// "Come Fly With Me" live at the Italian Community Center.
 export const FEATURED_VIDEO: PerformanceVideo = {
-  id: "aqz-KE-bpKQ",
-  title: "Swing Explosion Live at a Milwaukee Gala",
+  id: "RY3Xkdayx2s",
+  title: "Come Fly With Me — Pete Sorce & Swing Explosion, Live",
   description:
-    "The full 18-piece band on stage — replace with your best performance clip.",
+    "Frontman Pete Sorce and the full band performing live at the Italian Community Center.",
 };
 
+// PLACEHOLDER: we could only verify one real performance clip publicly (the
+// featured video above). Swap these for more real footage — ask the band for
+// a YouTube channel link or additional clips to embed here.
 export const MORE_VIDEOS: PerformanceVideo[] = [
   {
+    id: "aqz-KE-bpKQ",
+    title: "Placeholder — add a corporate event clip",
+    description: "Replace with real footage from a corporate event or gala.",
+  },
+  {
     id: "TLkA0RELQ1g",
-    title: "First Dance Set at a Wedding Reception",
-    description: "Smooth, romantic swing for the first dance and dinner hour.",
+    title: "Placeholder — add a fundraiser/gala clip",
+    description: "Replace with real footage from a fundraiser or gala.",
   },
   {
     id: "eRsGyueVLvQ",
-    title: "Corporate Gala Dance Floor",
-    description: "High-energy horns that keep a corporate crowd on the floor.",
-  },
-  {
-    id: "aqz-KE-bpKQ",
-    title: "Behind the Scenes with the Horn Section",
-    description: "A look at rehearsal and the band getting ready for showtime.",
+    title: "Placeholder — add a private party clip",
+    description: "Replace with real footage from a private party.",
   },
 ];

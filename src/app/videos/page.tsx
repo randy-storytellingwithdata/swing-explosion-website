@@ -4,7 +4,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Videos",
   description:
-    "Watch Swing Explosion perform live: full band footage from weddings, galas, and corporate events across Milwaukee.",
+    "Watch Swing Explosion perform live: full band footage from corporate events, fundraising galas, and private parties across the Greater Milwaukee area.",
 };
 
 export default function VideosPage() {

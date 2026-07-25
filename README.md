@@ -1,7 +1,9 @@
 # Swing Explosion
 
-Website for Swing Explosion, an 18-piece big band based in Milwaukee, WI.
-Built with Next.js (App Router), TypeScript, and Tailwind CSS.
+Website for Swing Explosion, an 18-piece big band based in the Greater
+Milwaukee area (New Berlin, WI), fronted by Pete Sorce and arranged by
+Jeff La Barge. Built with Next.js (App Router), TypeScript, and Tailwind
+CSS.
 
 ## Status
 
@@ -58,13 +60,24 @@ settings for production.
 
 ## Placeholder content to replace before launch
 
-- `src/data/videos.ts` — YouTube video IDs are neutral Creative Commons
-  filler clips. Swap in real Swing Explosion performance footage.
+Homepage copy (bio, repertoire, hero video) was sourced from the band's
+public listings (thebash.com, milwaukeestomp.com) since the live
+swingexplosion.com site couldn't be crawled directly. Still outstanding:
+
+- `src/data/videos.ts` — only one real performance clip was verifiable
+  (`FEATURED_VIDEO`, "Come Fly With Me" at the Italian Community Center).
+  `MORE_VIDEOS` are explicitly-labeled placeholders — swap in real clips
+  from corporate events, fundraisers, and private parties.
 - `src/data/homepage.ts` — testimonials are sample quotes; replace with
   real client feedback.
-- `src/data/nav.ts` — `CONTACT_EMAIL` is a placeholder.
-- Footer social links (Facebook/Instagram/YouTube) point to the generic
-  homepages — update with the band's actual profile URLs.
+- `src/data/nav.ts` — `CONTACT_EMAIL` is a placeholder; real booking
+  contact info wasn't publicly listed anywhere we could find.
+- Footer — Facebook link is real; Instagram/YouTube still point to the
+  generic homepages pending real profile URLs.
+- No photography yet — current design is typography/color-driven by
+  choice, but stock or band photos (black-tie events, horn section,
+  no faces) could be added to the hero/About/Features sections if
+  supplied as image files.
 
 ## Deployment
 

@@ -1,5 +1,11 @@
 import Link from "next/link";
-import { BOOKING_LINK, CONTACT_EMAIL, NAV_LINKS, SITE_TAGLINE } from "@/data/nav";
+import {
+  BOOKING_LINK,
+  CONTACT_EMAIL,
+  FACEBOOK_URL,
+  NAV_LINKS,
+  SITE_TAGLINE,
+} from "@/data/nav";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -53,7 +59,7 @@ export default function Footer() {
                 {CONTACT_EMAIL}
               </a>
             </li>
-            <li className="text-muted">Milwaukee, Wisconsin</li>
+            <li className="text-muted">New Berlin, WI (Greater Milwaukee)</li>
           </ul>
         </div>
 
@@ -64,7 +70,7 @@ export default function Footer() {
           <ul className="mt-4 space-y-2 text-sm text-cream/90">
             <li>
               <a
-                href="https://www.facebook.com"
+                href={FACEBOOK_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-colors hover:text-gold"

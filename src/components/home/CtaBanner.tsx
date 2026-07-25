@@ -10,8 +10,8 @@ export default function CtaBanner() {
           Ready to Book Swing Explosion?
         </h2>
         <p className="mt-4 text-lg text-cream/85">
-          Tell us about your wedding, corporate event, or gala and we&rsquo;ll
-          follow up with availability and a custom quote.
+          Tell us about your corporate event, private party, or fundraiser and
+          we&rsquo;ll follow up with availability and a custom quote.
         </p>
         <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
           <Link

@@ -9,17 +9,22 @@ export default function AboutTeaser() {
             ABOUT THE BAND
           </p>
           <h2 className="mt-3 font-display text-4xl tracking-wide text-cream">
-            A Milwaukee Institution
+            A Wisconsin Institution
           </h2>
         </div>
         <div className="lg:col-span-2">
           <p className="text-lg leading-relaxed text-cream/90">
-            Swing Explosion is an 18-piece big band built around a simple
-            idea: nothing fills a dance floor like the real thing. Five
-            saxophones, four trumpets, four trombones, and a driving rhythm
-            section deliver the sound of the swing era with the energy of a
-            modern show band &mdash; equally at home behind a bride and groom&rsquo;s
-            first dance or headlining a 500-person gala.
+            Swing Explosion is an 18-piece big band fronted by Pete Sorce, who
+            has been singing since he was eight years old, won the Ted Mack
+            Original Amateur Hour as an original &ldquo;American Idol,&rdquo;
+            and has shared the stage with Les Brown, Frank Sinatra Jr., Mel
+            Tormé, Jack Jones, and Duke Ellington. Arrangements come from Jeff
+            La Barge, one of the country&rsquo;s finest big-band arrangers.
+            Together they bring the sound of Sinatra, Tony Bennett, and
+            Michael Bublé to corporate galas, fundraisers, and private
+            celebrations across the region &mdash; equally at home in a
+            500-person ballroom or a trimmed-down combo for an intimate
+            event.
           </p>
           <Link
             href="/about"

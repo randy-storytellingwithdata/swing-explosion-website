@@ -4,7 +4,7 @@ import PageHero from "@/components/PageHero";
 export const metadata: Metadata = {
   title: "Booking",
   description:
-    "Book Swing Explosion for your wedding, corporate event, or gala. Request a quote today.",
+    "Book Swing Explosion for your corporate event, private party, or fundraising gala. Request a quote today.",
 };
 
 export default function BookingPage() {

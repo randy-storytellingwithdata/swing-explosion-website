@@ -18,15 +18,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://swingexplosion.com"),
   title: {
-    default: "Swing Explosion | Milwaukee's 18-Piece Big Band",
+    default: "Swing Explosion | The Midwest's Premier 18-Piece Big Band",
     template: "%s | Swing Explosion",
   },
   description:
-    "Swing Explosion is an 18-piece big band based in Milwaukee, WI, bringing high-energy swing, jazz, and dance music to weddings, corporate events, and nonprofit galas.",
+    "Swing Explosion is an 18-piece big band based in the Greater Milwaukee area, fronted by Pete Sorce and arranged by Jeff La Barge, bringing swing, jazz, and dance music to corporate events, private parties, and fundraising galas.",
   openGraph: {
-    title: "Swing Explosion | Milwaukee's 18-Piece Big Band",
+    title: "Swing Explosion | The Midwest's Premier 18-Piece Big Band",
     description:
-      "High-energy swing, jazz, and dance music for weddings, corporate events, and galas. Based in Milwaukee, WI.",
+      "High-energy swing and jazz for corporate events, private parties, and fundraising galas. Based in the Greater Milwaukee area.",
     siteName: "Swing Explosion",
     locale: "en_US",
     type: "website",
